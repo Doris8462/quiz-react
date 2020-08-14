@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './app.less';
-import Header from '../app/Header';
+import Header from './Header';
 import { BrowserRouter } from "react-router-dom";
 
 class App extends Component {
@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="app">
       <BrowserRouter>
-        <Header></Header>
+       <Header></Header>
       </BrowserRouter>
       </div>
     );
