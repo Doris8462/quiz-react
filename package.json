@@ -7,9 +7,10 @@
     "start": "parcel index.html"
   },
   "dependencies": {
+    "fetch-jsonp": "^1.1.3",
     "react": ">=15",
     "react-dom": "^16.8.6",
-    "react-router-dom": "^5.0.1"
+    "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.5.4",
